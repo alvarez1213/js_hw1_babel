@@ -1,0 +1,31 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "Browser based game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvarez1213/js_hw1_babel.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Dmitry Melnikov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alvarez1213/js_hw1_babel/issues"
+  },
+  "homepage": "https://github.com/alvarez1213/js_hw1_babel#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.23.4",
+    "@babel/core": "^7.23.5",
+    "@babel/preset-env": "^7.23.5"
+  },
+  "dependencies": {
+    "core-js": "^3.34.0"
+  }
+}
